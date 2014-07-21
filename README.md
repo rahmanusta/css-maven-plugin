@@ -1,6 +1,6 @@
 # CSS Minifier Maven Plugin
 
-Combines and compiles your JavaScript files with Google Closure Compiler
+Combines and Minifies your CSS files
 
 ## Usage
 
@@ -14,9 +14,9 @@ Combines and compiles your JavaScript files with Google Closure Compiler
 	<styles>
 		<style>vendor/bootstrap.css</style>
 		<style>vendor/layout.css</style>
-		<style>app.js</js>
+		<style>custom.css</js>
 	</styles>
-	<outputPath>${basedir}/src/main/webapp/css/script.css.js</outputPath>
+	<outputPath>${basedir}/src/main/webapp/css/script.css</outputPath>
 </configuration>
 </plugin>
 ```
