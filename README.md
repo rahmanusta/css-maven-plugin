@@ -16,7 +16,7 @@ Combines and Minifies your CSS files
 		<style>vendor/layout.css</style>
 		<style>custom.css</js>
 	</styles>
-	<outputPath>${basedir}/src/main/webapp/css/script.css</outputPath>
+	<outputPath>${basedir}/src/main/webapp/css/style.min.css</outputPath>
 </configuration>
 </plugin>
 ```
